@@ -35,6 +35,25 @@
 
 ---
 
+## Screenshots
+
+### Customer experience (mobile)
+| Menu & ordering | Cart | Live order tracking |
+|---|---|---|
+| ![Customer menu](docs/screenshots/customer-menu.png) | ![Cart](docs/screenshots/customer-cart.png) | ![Order tracking](docs/screenshots/customer-tracking.png) |
+
+### Kitchen display
+![Kitchen display](docs/screenshots/kitchen-display.png)
+
+### Admin dashboard
+![Orders & Bills](docs/screenshots/admin-orders.png)
+![Menu management](docs/screenshots/admin-menu.png)
+![Analytics](docs/screenshots/admin-analytics.png)
+![CRM & campaigns](docs/screenshots/admin-crm.png)
+![Table QR codes](docs/screenshots/admin-qr-codes.png)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
