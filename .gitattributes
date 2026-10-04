@@ -2,3 +2,7 @@
 # the core of DineFlow is the Python CRM/analytics backend.
 frontend/** linguist-detectable=false
 docs/** linguist-documentation
+
+# SQL is a "data" language in Linguist and hidden from stats by default;
+# the analytics library is real code, so count it.
+database/*.sql linguist-detectable=true
