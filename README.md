@@ -111,6 +111,9 @@ Then everything is at `http://<host>:8000`. Rebuild the frontend after any UI ch
 
 ## Project Structure
 ```
+database/
+  schema.sql             # full database schema (generated from the live DB)
+  analytics_queries.sql  # SQL analytics library: revenue, RFM, kitchen ops, cancellations
 backend/
   app/
     main.py          # FastAPI app, SQLite migrations, SPA static serving
