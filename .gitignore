@@ -1,0 +1,27 @@
+# --- Secrets: never commit ---
+backend/.env
+
+# --- Database (contains customer data) ---
+backend/*.db
+backend/*.db-wal
+backend/*.db-shm
+
+# --- Python ---
+backend/venv/
+__pycache__/
+*.pyc
+
+# --- Node / build output ---
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# --- Local machine helpers / scratch ---
+RENAME_SETUP.bat
+session.md
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

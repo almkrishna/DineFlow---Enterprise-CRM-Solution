@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-bg: #0F0F1A;
+  --color-brand-card: #1A1A2E;
+  --color-brand-card-hover: #252540;
+  --color-brand-accent: #FF6B35;
+  --color-brand-accent-hover: #E85A2A;
+  --color-brand-gold: #FFD93D;
+  --color-brand-success: #22C55E;
+  
+  --color-kitchen-bg: #0A0A12;
+  --color-kitchen-card: #141420;
+  --color-kitchen-received: #FBBF24;
+  --color-kitchen-preparing: #FF6B35;
+  --color-kitchen-ready: #22C55E;
+  
+  --color-admin-bg: #0F0F1A;
+  --color-admin-sidebar: #0A0A14;
+  
+  --color-rfm-champions: #22C55E;
+  --color-rfm-loyal: #3B82F6;
+  --color-rfm-potential: #06B6D4;
+  --color-rfm-at-risk: #F59E0B;
+  --color-rfm-cant-lose: #EF4444;
+  --color-rfm-lost: #6B7280;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-display: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0F0F1A; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, sans-serif; }
+
+/* Hide scrollbars on horizontal pill rows (class was referenced but never defined) */
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.custom-scrollbar { scrollbar-width: thin; scrollbar-color: #333 transparent; }
+.custom-scrollbar::-webkit-scrollbar { width: 5px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
